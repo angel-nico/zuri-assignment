@@ -6,6 +6,3 @@ from django.db import models
 
 class linksmodel(link):
     target_url = models.URLField(max_length=200)
-    descriptions = models.CharField(max_length=200)
-
-#description
